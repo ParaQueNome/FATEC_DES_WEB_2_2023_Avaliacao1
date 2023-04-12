@@ -22,7 +22,7 @@ fwrite($handle,",");
 fwrite($handle,$_POST['livro']);
 fwrite($handle,",");
 fwrite($handle,$_POST['data']);
-fwrite($handle, "\n");
+fwrite($handle, ",");
 
 fflush($handle);
 fclose($handle);
